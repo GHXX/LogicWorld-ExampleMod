@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ModAuthor>YOUR_NAME_OR_ALIAS_WITHOUT_SPACES</ModAuthor>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>$(ModAuthor)_$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<Reference Include="LogicAPI">
+			<HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicAPI.dll</HintPath>
+		</Reference>
+		<Reference Include="LogicAPI.Server">
+			<HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicAPI.Server.dll</HintPath>
+		</Reference>
+		<Reference Include="LogicLog">
+			<HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicLog.dll</HintPath>
+		</Reference>
+		<Reference Include="Server">
+			<HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\Server.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

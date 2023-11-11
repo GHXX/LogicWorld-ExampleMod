@@ -1,0 +1,85 @@
+ExampleComponent:
+    column: "Miscellaneous"
+    prefab:
+        blocks:
+            -
+                color: 5c1669
+                position: (2, 0, 0.5) # 0+2
+                scale: (2.5, 2, 2)
+            -
+                mesh: BufferBody_Long
+                color: 5c1669
+                position: (0.75, 1, 0) # -1.25+2
+                scale: (2, 1.1, 1)
+                rotation: (0,0,90)
+            -
+                mesh: BufferBody_Long
+                color: 5c1669
+                position: (3.25, 1, 0) # 1.25+2
+                scale: (2, 1.1, 1)
+                rotation: (0,0,-90)
+        inputs:
+            - # data_in x8
+                position: (0, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0.5, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1.5, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (2.5, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (3, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (3.5, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (4, 1.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            - # data_out x8
+                position: (0.25, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0.75, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1.25, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1.75, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2.25, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (2.75, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (3.25, 1.5, 1.5)
+                rotation: (90, 0, 0)
+            -
+                position: (3.75, 1.5, 1.5)
+                rotation: (90, 0, 0)
+
+
+    logicCode: YOUR_NAME_OR_ALIAS_WITHOUT_SPACES_LwExampleMod.Server.ExampleComponent
+    placingRules:
+        offsetDimensions: (5, 2)
+        gridPlacingDimensions: (6, 4)
+        allowFineRotation: false
