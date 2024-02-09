@@ -6,7 +6,7 @@ namespace YOUR_NAME_OR_ALIAS_WITHOUT_SPACES_LwExampleMod.Server
     {
         protected override void Initialize()
         {
-            this.Logger.Info("TcpBridge mod initialized!");
+            this.Logger.Info("Example mod initialized!");
             // useful for extra, per-mod setup stuff (this is called right after the mod was loaded)
         }
     }
